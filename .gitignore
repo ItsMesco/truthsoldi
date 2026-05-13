@@ -1,0 +1,43 @@
+# ==========================================
+# 1. AMBIENTE VIRTUALE E SEGRETI (CRITICO)
+# ==========================================
+.env
+.env.*
+venv/
+.venv/
+env/
+
+# ==========================================
+# 2. CACHE DI PYTHON E LOG
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+bot.log
+.pytest_cache/
+
+# ==========================================
+# 3. MODELLI MACHINE LEARNING (FILE GIGANTI)
+# ==========================================
+# Evita il blocco di GitHub (limite 100MB)
+*.pkl
+*.pt
+*.pth
+*.h5
+
+# ==========================================
+# 4. DATASET E DATABASE
+# ==========================================
+# Ignora i formati dati pesanti 
+*.parquet
+*.csv
+*.db
+*.sqlite3
+
+# ==========================================
+# 5. FILE DI SISTEMA
+# ==========================================
+.DS_Store
+Thumbs.db
+dataset/backup_emergenza.json

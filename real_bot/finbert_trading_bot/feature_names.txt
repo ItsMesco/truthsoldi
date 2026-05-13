@@ -1,0 +1,8 @@
+ora
+minuto
+giorno_settimana
+mese
+volume_norm
+close_norm
+len_testo_norm
+ticker_idx
