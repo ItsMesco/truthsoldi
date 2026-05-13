@@ -44,8 +44,11 @@ Currently, the trading strategies operate with a **negative ROI**. The primary g
     ```
 
 4.  **Model Weights (Large Files)**:
-    Due to GitHub's 100MB file limit, the FinBERT weights (`model_weights.pt`, approx. 439MB) are excluded. To run the `real_bot`, download the weights and place them in:
-    `real_bot/finbert_trading_bot/model_weights.pt`
+    Due to GitHub's 100MB file limit, the trained model weights are hosted in the GitHub Releases section of this repository. 
+    * Download `model_weights.pt` and place it in `real_bot/finbert_trading_bot/`
+    * Download `bot_brain_xgb_robust.pkl` and place it in `v2/`
+    
+    [📥 Download Models from Releases](https://github.com/ItsMesco/truthsoldi/releases/tag/v1.0-models)
 
 ## 🛠️ Tech Stack
 * **Language**: Python 3.10+
